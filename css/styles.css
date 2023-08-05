@@ -234,23 +234,15 @@ body {
 }
 
 /* ICONS */
-.icons {
-  padding-top: 60px;
-  padding-bottom: 0px;
-  margin-left: -30px;
-  align-items: center;
 
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-.icon {
-}
-.rectangle {
+.benefits .icon {
   background: var(--cloud, #f4f4fd);
   width: 264px;
   height: 112px;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 /* -- Section 1 -- */
@@ -346,6 +338,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 .substrate {
@@ -368,6 +361,50 @@ body {
   height: 40px;
   border-radius: 50px;
 }
+
+.socialmedia .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cloud);
+}
+.socialmedia .icons {
+  fill: currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Customers */
+.customers {
+}
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  /* width: 168px;
+  height: 88px; */
+}
+.partners .item {
+  color: var(--light-slate);
+  background: var(--white);
+  border: 1px solid var(--lightslate, #8e8f99);
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+}
+.partners .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partners .icons {
+  fill: currentColor;
+  width: 104px;
+  height: 56px;
+}
+
 /* --Footer-- */
 
 .page-footer.bg-footer {
@@ -390,6 +427,40 @@ body {
   line-height: 1.5;
   font-weight: 400;
   padding-top: 17px;
+}
+.footer {
+  display: flex;
+}
+.footer-block {
+  display: block;
+  margin-left: 156px;
+}
+.footer-heading {
+  color: var(--white);
+}
+.social-footer {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-top: 16px;
+  gap: 16px;
+}
+.social-footer .link {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  color: var(--cloud);
+}
+.social-footer .icons {
+  display: flex;
+  align-items: center;
+  fill: currentColor;
+}
+.social-footer .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cloud);
 }
 
 /* --Portfolio Images-- */
