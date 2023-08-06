@@ -235,6 +235,17 @@ body {
 
 /* ICONS */
 
+.partners .item:hover,
+.partners .item:focus {
+  color: var(--ocean);
+  border-color: var(--ocean);
+}
+
+.circle:hover,
+.circle:focus {
+  background-color: var(--green);
+}
+
 .benefits .icon {
   background: var(--cloud, #f4f4fd);
   width: 264px;
